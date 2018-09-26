@@ -158,14 +158,3 @@ input[type='reset']:hover {
 #tb-data th:last-child {
     border-radius: 0 10px 0 0;
 }
-/* ===================================================================== */
-#tb-data img {
-    width: 20%;
-    border-radius: 10px;
-    transition: 0.5s;
-}
-
-#tb-data img:hover {
-    width: 30%;
-    transition: 0.5s;
-}
