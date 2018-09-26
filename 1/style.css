@@ -1,0 +1,171 @@
+body {
+    margin: 0;
+    background-color: #efefef;
+}
+
+input {
+    outline: 0;
+}
+/* ===================================================================== */
+#button {
+    float: right;
+    padding: 0.7% 1%;
+    margin: 1% 0.5%;
+    border: 0;
+    color: white;
+    border-radius: 5px;
+    background-color: darkblue;
+    cursor: pointer;
+    box-shadow: 0 0 10px black;
+    transition: 0.5s;
+}
+
+#logout {
+    float: right;
+    padding: 0.7% 1%;
+    margin: 1% 1% 1% 0.5%;
+    border: 0;
+    color: white;
+    border-radius: 5px;
+    background-color: darkred;
+    cursor: pointer;
+    box-shadow: 0 0 10px black;
+    transition: 0.5s;
+}
+
+#button:hover {
+    background-color: blue;
+    transition: 0.5s;
+}
+
+#logout:hover {
+    background-color: red;
+    transition: 0.5s;
+}
+/* ===================================================================== */
+input[type='submit'] {
+    border: 0;
+    border-radius: 5px;
+    padding: 2% 5%;
+    color: white;
+    cursor: pointer;
+    margin: 2% 0;
+    background-color: darkgreen;
+    transition: 0.5s;
+    box-shadow: 0 0 10px black;
+}
+
+input[type='reset'] {
+    border: 0;
+    border-radius: 5px;
+    padding: 2% 5%;
+    color: white;
+    cursor: pointer;
+    margin: 2% 0;
+    background-color: darkred;
+    box-shadow: 0 0 10px black;
+}
+
+input[type='submit']:hover {
+    background-color: green;
+    transition: 0.5s;
+}
+
+input[type='reset']:hover {
+    background-color: red;
+    transition: 0.5s;
+}
+/* ===================================================================== */
+.login {
+    float: left;
+    width: 25%;
+    margin: 10% 38%;
+    border-radius: 10px;
+    box-shadow: 0 0 20px black;
+    background-color: #fff;
+}
+
+.login > #title {
+    float: left;
+    background-color: darkred;
+    width: 100%;
+    text-align: center;
+    color: white;
+    border-radius: 10px 10px 0 0;
+}
+
+.login > form {
+    float: left;
+    width: 94%;
+    padding: 2% 3%;
+    text-align: center;
+}
+
+.login input[type='text'], .login input[type='password'] {
+    width: 96%;
+    padding: 1% 2%;
+    margin: 1% 0 2% 0;
+    text-align: center;
+    border: 0;
+    border-bottom: 1px solid black
+}
+/* ===================================================================== */
+.data {
+    float: left;
+    width: 30%;
+    border-radius: 10px;
+    box-shadow: 0 0 20px black;
+    margin: 2% 35%;
+    background-color: #fff;
+}
+
+.data > #title {
+    float: left;
+    width: 100%;
+    text-align: center;
+    background-color: darkred;
+    border-radius: 10px 10px 0 0;
+    color: white;
+}
+
+.data > form {
+    float: left;
+    width: 96%;
+    padding: 2% 2%;
+    text-align: center;
+}
+/* ===================================================================== */
+#tb-data {
+    float: right;
+    margin: 1% 2.5%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+    border-spacing: 0;
+    text-align: center; 
+    width: 95%;
+}
+
+#tb-data th {
+    background-color: darkred;
+    color: white;
+}
+
+#tb-data th:first-child {
+    border-radius: 10px 0 0 0;
+}
+
+#tb-data th:last-child {
+    border-radius: 0 10px 0 0;
+}
+/* ===================================================================== */
+#tb-data img {
+    width: 20%;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+#tb-data img:hover {
+    width: 30%;
+    transition: 0.5s;
+}
